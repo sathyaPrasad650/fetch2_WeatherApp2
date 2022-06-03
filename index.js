@@ -9,7 +9,7 @@ async function getData1() {
     // let city = `pune`
 
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`
-    console.log(url)
+    // console.log(url)
 
     let result1 = await fetch(url)
     // console.log(result1)
